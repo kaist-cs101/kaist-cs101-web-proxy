@@ -8,3 +8,9 @@ To proxy the homepage on [kaist-cs101.github.io](https://kaist-cs101.github.io),
 ```
 $ docker-compose up
 ```
+- To run in background: -d
+- To force the re-creation of image: --force-recreate
+
+### Let's encrypt
+Using Let's encrypt and Certbot, SSL certificate saved at certbot/conf for secure https connection
+When docker up, Certbot will try to get or renew the certificate
